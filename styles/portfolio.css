@@ -23,6 +23,12 @@
     border: none;
 
 }
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+
+}
 nav{
     display: flex;
     align-items: center;
@@ -46,4 +52,26 @@ nav ul li {
 }
 nav ul li a{
     text-decoration: none;
+}
+/*banner styles*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px; 
+
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-weight:600;
+    font-size: 45px;
+
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
 }
